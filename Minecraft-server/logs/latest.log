@@ -1,0 +1,954 @@
+[03:40:59] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[03:40:59] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[03:40:59] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03:41:00] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[03:41:00] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 4 dependencies adding them to mods collection
+[03:41:02] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[03:41:02] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[03:41:02] [main/WARN] [mixin]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:41:02] [main/INFO] [Puzzles Lib]: Loading 22 mods:
+	- backpacked 2.2.5
+	- configured 2.2.2
+	- ctov 3.3.4
+	- delightful 3.5
+	- ecologics 2.2.0
+	- emojiful 4.2.0
+	- explorify 1.3.0-mc1.20u1.20.1
+	- farmersdelight 1.20.1-1.2.4
+	- forge 47.2.20
+	- framework 0.6.26
+	- geckolib 4.4.2
+	- handcrafted 3.0.6
+	- jei 15.3.0.4
+	- minecraft 1.20.1
+	- mohist 1.20.1
+	- naturalist 4.0.3
+	- overweight_farming 1.20.1-2.1.0-forge
+	- pickupnotifier 8.0.0
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.17
+	- resourcefullib 2.1.23
+	- taxcp 1.0.1
+[03:41:02] [main/WARN] [mixin]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:41:08] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for pickupnotifier:main
+[03:41:08] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[03:41:09] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[03:41:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[03:41:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[03:41:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[03:41:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[03:41:11] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov]: Got IMC []
+[03:41:14] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/zanite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:pumpkin_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/gloomgourd_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe vintagedelight:deluxe_burger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:cutting/blueberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/tin_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:gloomgourd_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:source_berry_roll as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/electrum_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe spawn:cutting/rotten_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe create:mixing/tea_from_tea_leaves as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe farmersdelight:bacon_sandwich_from_bread_slice as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/knife_minecraft as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/silver_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cranberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/copper_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/tin_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/constantan_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/electrum_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/invar_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:raspberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:skyroot_milk_bucket_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/stratus_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/steel_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bronze_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/copper_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/alf_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_pickaxe as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/ritual/living_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/atmospheric/cactus_flesh_from_barrel_cactus as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/green_archwood_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:cutting/skyroot_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/skyroot_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe create:rose_quartz_block_from_rose_quartz_stonecutting as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/lead_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_helmet as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_shovel as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:cutting/golden_oak_wood as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe cratedelight:minecraft/crafting/apple_crate
+com.google.gson.JsonSyntaxException: Unknown item 'cratedelight:apple_crate'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:380) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/mechanical_crafting/gilded_quartz_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/gravitite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:green_apple_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe sunflowerdelight:cooking/rose_lemonade as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/froststeel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/osmium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:sweet_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:cutting/golden_oak_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe duckling:holiday_fruit_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe naturalist:cooked_egg as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/marshmallow_stick_create_confectionery as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/skyjade_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:gloomgourd_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:cutting/green_apple_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/nickel_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomesoplenty/clover as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_axe as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/conberry_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/blue_archwood_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:glow_berry_pie_craft as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomesoplenty/lavender_tea as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/atmospheric/cactus_flesh_from_barrel_cactus_batch as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/blue_archwood_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/veridium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/copper_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/stratus_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/fieldsprout_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe miners_delight:vegan_hamburger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/allthemodium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:moa_egg_pumpkin_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/gravitite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/large_amethyst_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/ironwood_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/nightshade_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:raspberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cooking/sinigang as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/fluix_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:hydra_burger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:ghast_burger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/kettle/azalea_tea as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe create:fr/tea as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/conberry_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:frosteel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/quark/cactus_flesh_from_cactus_block as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/farmersrespite/green_tea_leaves_from_green_tea_leaf as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/constantan_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/crimson_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/red_archwood_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:blueberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/experience_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/nether_quartz_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/windswept/goat_shanks_windswept as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe naturalist:cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:skyroot_milk_bucket_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/blueberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cooking/rock_candy as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:green_apple_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/crystal_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:cloggrum_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/yagroot_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/gloomgourd_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ecologics:tropical_stew as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/green_apple_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_axe as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/tin_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/nightshade_berry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_leggings as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_green_apple_crate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/netherite_opal_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/fiery_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:cutting/raw_venison_rib as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe vintagedelight:cheese_burger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe farmersdelight:hamburger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/invar_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/lead_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:matcha_ice_cream_block as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_chestplate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/skyroot_knife as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe cratedelight:minecraft/crafting/sugar_bag
+com.google.gson.JsonSyntaxException: Unknown item 'cratedelight:sugar_bag'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:380) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/lead_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/starlit_stellium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/nut_butter_and_jelly_sandwich_from_bread_slice as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomemakeover/cactus_flesh_from_barrel_cactus_flowered as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe spawn:tuna_sandwich as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe vintagedelight:cheese_burger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/blueberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/lead_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:mug_of_chocolate_milk as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/electrum_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/crimson_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe spawn:cutting/rotten_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/sinisite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:skyroot_milk_bucket_moa_egg_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:nightshade_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cooking/coconut_curry as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/lead_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:source_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/deluxe_cheeseburger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:nightshade_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/obsidian_infused_enderite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/crimson_berry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bronze_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/enderite_knife as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/adamantium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/utherium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:smelting/cooked_goat as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:forgotten_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:mug_of_milk as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:campfire/cooked_goat as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/terra_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/cruderoot_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/wildberries/unpack_blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:cutting/skyroot_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:sweet_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:cutting/crimson_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/smogstem_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_chestplate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe minecraft:pumpkin_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/tin_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe vintagedelight:pb_j as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/kiwano_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_crimson_berry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/zanite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/leaf_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/red_archwood_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/manasteel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_leggings as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/purple_archwood_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/blueberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/rottenleather/chunk_nugget as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/elementium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/nickel_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/nickel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:blackberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/draco_arcanus_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/clover_honey as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe sprout:water_sausage as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/electrum_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:imbuement_mangosteen as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/baobab_fruit_crate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/osmium_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/onyx_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/nightshade_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/source_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/necronium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_boots as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/soul_steel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomemakeover/cactus_flesh_from_saguaro_cactus as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/silver_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/wigglewood_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/mixing/blazing_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:blueberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/repairing/holystone_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe naturalist:pumpkin_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/constantan_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/emerald_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_shovel as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bronze_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/kettle/matcha_latte as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/warden_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/smore_from_chocolate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/copper_copperized as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe additionaladditions:fried_egg_from_smoking as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/immersive_weathering/tallow_from_animal_fat as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:ghast_burger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/lapis_lazuli_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:mug_of_truffle_hot_chocolate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/green_archwood_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:utherium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:truffle_cake_from_chocolate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/silver_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bronze_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/raspberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/salmonberry_ice_cream as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/silver_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/crystalline_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_baobab_fruit_crate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/cruderoot_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/sweet_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/refined_glowstone_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/roseroot_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/tin_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/berry_matcha_latte_from_matcha_latte_neapolitan as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/steel_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/diamond_diamond_nuggets as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/copper_copperized as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:imbuement_pomegranate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:blueberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_helmet as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:cutting/cooked_venison_rib as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/skyjade_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/osmium_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/fieldsprout_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/mythril_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/cloggrum_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/grongle_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe biomemakeover:glowshroom_stew as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe farmersdelight:cutting/cooked_crab as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/pendorite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe additionaladditions:fried_egg as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/invar_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/joshua_fruit_crate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:salmonberry_ice_cream_block as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_pickaxe as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/electrum_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/forgotten_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe miners_delight:vegan_hamburger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/knife_minecraft as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:crimson_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:crimson_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/knightmetal_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe create:mixing/tea as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe miners_delight:insect_sandwich
+com.google.gson.JsonSyntaxException: Unknown item 'miners_delight:insect_sandwich'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:117) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:106) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/infusion/infuse_and_charge_infused_veridium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cheeseburger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/nickel_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/fiery_iron_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/certus_quartz_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/infusion/infuse_and_charge_veridium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_joshua_fruit_crate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/windswept/cooked_goat_shanks_windswept as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/silver_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cranberry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/steeleaf_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/brass_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:cutting/source_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:truffle_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe enlightened_end:smithing/adamantite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/green_apple_crate as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe cratedelight:minecraft/crafting/cod_crate
+com.google.gson.JsonSyntaxException: Unknown item 'cratedelight:cod_crate'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:380) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe create:sandpaper_polishing/rose_quartz as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:mug_of_truffle_hot_chocolate_from_chocolate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/copper_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/emerald_emeraldequipment as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/cranberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/crystal_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/bronze_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/aether/blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:cutting/nightshade_berry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/bone_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/berry_matcha_latte_neapolitan as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe byg:blueberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/unpack_nightshade_berry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/glow_berry_pie_slice as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe farmersdelight:cutting/cooked_crab_ecologics as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe duckling:pumpkin_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/roseroot_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_sword as it's serializer returned null
+[03:41:17] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe cratedelight:minecraft/crafting/salmon_crate
+com.google.gson.JsonSyntaxException: Unknown item 'cratedelight:salmon_crate'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:380) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraftforge.common.crafting.ConditionalRecipe$Serializer.fromJson(ConditionalRecipe.java:57) ~[forge-1.20.1-47.2.20-universal.jar%23233!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23228!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/kettle/matcha_latte_neapolitan as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/sunroot_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether:moa_egg_cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/aether/unpack_blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe additionaladditions:fried_egg_from_campfire_cooking as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe vintagedelight:deluxe_burger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:cutting/blackberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/emerald_emeraldequipment as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:blackberry_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/steel_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/zinc_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe duckling:cake as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe farmersdelight:sweet_berry_cheesecake_from_cheese as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightdelight:hydra_burger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/black_opal_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_hoe as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe sunflowerdelight:cooking/rose_lemonade_from_lemon as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/pie/green_apple_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/sunroot_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/refined_obsidian_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/glacia_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_boots as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/rose_gold_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:mixing/salmonberry_gummy as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/smogstem_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cooking/crab_rangoon as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe miners_delight:insect_sandwich_from_bread_slice as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/holystone_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/constantan_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe deep_aether:cutting/yagroot_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe frozenup:mug_of_chocolate_milk_from_chocolate as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/steel_mekanism as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe ars_nouveau:cutting/purple_archwood_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/stellium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/wildberries/blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smithing/gilded_netherite_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe naturalist:cooked_egg_from_smoking as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomesoplenty/huge_clover_petal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/kettle/lavender_tea as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe naturalist:cooked_egg_from_campfire_cooking as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/diamond_diamond_nuggets as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/rottenleather/chunkwich as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/byg/blueberry_sack as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/steel_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/nickel_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergardendelight:cutting/knife/gloomgourd_pie as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:smoking/cooked_goat as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/deluxe_cheeseburger_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/thyrium_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_sword as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe wildberries:glow_berry_pie_from_slices as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/matcha_ice_cream as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/grongle_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/copper_immersiveengineering as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:food/cheeseburger as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/constantan_thermal as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe fruitsdelight:fig_pudding as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_hoe as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe undergarden:cutting/wigglewood_log as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/rottenleather/chunkwich_from_bun as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe aether_redux:cutting/glacia_wood as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:integration/biomemakeover/cactus_flesh_from_barrel_cactus as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe delightful:knives/amethyst_knife as it's serializer returned null
+[03:41:17] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 10 recipes
+[03:41:18] [main/ERROR] [net.minecraft.server.ServerAdvancementManager]: Parsing error loading custom advancement overweight_farming:husbandry/peel_overweight_onion: Failed to parse 'location' field
+[03:41:18] [main/ERROR] [net.minecraft.server.ServerAdvancementManager]: Parsing error loading custom advancement overweight_farming:husbandry/unpeel_vegetables: Failed to parse 'location' field
+[03:41:18] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1995 advancements
+[03:41:18] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager]: Could not decode GlobalLootModifier with json id delightful:crab_legs_from_crab_crabbersdelight - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: crabbersdelight:crab_legs
+[03:41:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[03:41:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:41:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:41:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[03:41:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:41:19] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[03:41:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:41:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[03:41:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:41:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:41:19] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[03:41:20] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[03:41:20] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[03:41:20] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[03:41:21] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[03:41:21] [Server thread/INFO] [Puzzles Lib]: Loading server config for pickupnotifier
+[03:41:21] [Thread-1/INFO] [Puzzles Lib]: Reloading server config for pickupnotifier
+[03:41:21] [Server thread/INFO] [Framework]: Loading server configs...
+[03:41:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:41:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[03:41:27] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:27] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:27] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:28] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 5%
+[03:41:29] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 70%
+[03:41:29] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5190 ms
+[03:41:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[03:41:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:30] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 12%
+[03:41:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1822 ms
+[03:41:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[03:41:32] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:32] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:32] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:32] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:33] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:41:33] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2471 ms
+[03:41:34] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[03:41:34] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[03:41:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (13.120s)! For help, type "help"
+[03:41:34] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[03:41:34] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[03:41:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[03:41:47] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:44614] logged in with entity id 267 at ([world]-1156.1485012172984, -49.0, 327.69999998807907)
+[03:42:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode creative
+[03:42:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Creative Mode]
+[03:42:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 joined the game
+[03:42:22] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: chander541[/127.0.0.1:47596] logged in with entity id 552 at ([world]-638.3000000119209, 73.0, 121.68844860924497)
+[03:42:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mexicano69 joined the game
+[03:42:32] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Mexicano69[/127.0.0.1:55196] logged in with entity id 878 at ([world]-1142.8394867343102, 35.0, 401.4872374647528)
+[03:42:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode survival
+[03:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Survival Mode]
+[03:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: younow2088 joined the game
+[03:43:42] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: younow2088[/127.0.0.1:46276] logged in with entity id 1341 at ([world]323.92572650161566, 66.0, 302.0915977456315)
+[03:43:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -639.5 94 158.5
+[03:43:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[03:43:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[03:43:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[03:43:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[03:44:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69 chander541
+[03:44:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Mexicano69 to chander541]
+[03:44:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[03:44:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[03:44:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[03:44:27] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:55286] logged in with entity id 1906 at ([world]-655.6826264694901, 78.0, 125.2476383929238)
+[03:44:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamerule keepInventory true
+[03:44:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Gamerule keepInventory is now set to: true]
+[03:45:31] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> :monka_gun:
+[03:45:48] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <Mexicano69> :feelsbadman:
+[03:45:54] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <younow2088> :athletic_shoe:
+[03:46:01] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> :thonk:
+[03:46:19] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <chander541> w:catjam:
+[03:46:26] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <Mexicano69> :blobcatgoogly:
+[03:46:36] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <younow2088> :peped:
+[03:46:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp -607.736 61.000 1192.640
+[03:46:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to -607.736000, 61.000000, 1192.640000]
+[03:47:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp -552.836 66.000 1370.202
+[03:47:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to -552.836000, 66.000000, 1370.202000]
+[03:47:47] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: FallingBlockEntity['Falling block.ecologics.hanging_coconut'/3503, l='ServerLevel[world]', x=-488.50, y=75.00, z=1364.50]
+[03:47:51] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: FallingBlockEntity['Falling block.ecologics.hanging_coconut'/3532, l='ServerLevel[world]', x=-606.50, y=74.00, z=1480.50]
+[03:47:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp -890.686 67.000 1417.386
+[03:47:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to -890.686000, 67.000000, 1417.386000]
+[03:48:06] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: FallingBlockEntity['Falling block.ecologics.hanging_coconut'/3860, l='ServerLevel[world]', x=-983.50, y=74.00, z=1468.50]
+[03:48:14] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: FallingBlockEntity['Falling block.ecologics.hanging_coconut'/3937, l='ServerLevel[world]', x=-884.50, y=70.00, z=1411.50]
+[03:48:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[03:48:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[03:48:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: neolly joined the game
+[03:48:58] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: neolly[/127.0.0.1:44538] logged in with entity id 4316 at ([world]-1610.3977469264653, 64.9375, 695.7112131189358)
+[03:49:11] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <neolly> hi
+[03:49:24] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> hi
+[03:49:28] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <chander541> halo
+[03:53:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: neolly has made the advancement [farmersdelight.advancement.craft_knife]
+[03:54:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 has made the advancement [Suit Up]
+[03:55:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /kick younow2088
+[03:55:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: younow2088 lost connection: Kicked by an operator
+[03:55:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: younow2088 left the game.
+[03:55:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Kicked younow2088: Kicked by an operator]
+[03:56:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: younow2088 joined the game
+[03:56:14] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: younow2088[/127.0.0.1:34700] logged in with entity id 9520 at ([world]-640.474264243187, 88.76636799395752, -603.6424528725584)
+[04:03:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 was doomed to fall by Spider
+[04:05:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:05:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:06:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp y
+[04:06:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088
+[04:06:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to younow2088]
+[04:06:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax was doomed to fall by Mexicano69
+[04:06:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:06:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:07:03] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer]: <neolly> [name:"Huesitos", x:-766, y:8, z:-175, dim:minecraft:overworld]
+[04:07:07] [Async Chat Thread - #5/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> :scream:
+[04:07:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp -766 8 -175
+[04:07:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to -765.500000, 8.000000, -174.500000]
+[04:07:29] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> XD
+[04:07:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:07:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:07:35] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:07:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:07:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:07:44] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:37380] logged in with entity id 19190 at ([world]-639.8599476067479, 94.0, 157.1443335826195)
+[04:07:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:07:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:07:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:07:59] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:47442] logged in with entity id 19321 at ([world]-639.8599476067479, 94.0, 157.1443335826195)
+[04:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 has made the advancement [Diamonds!]
+[04:18:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: younow2088 has reached the goal [farmersdelight.advancement.place_cooking_pot]
+[04:18:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088
+[04:18:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to younow2088]
+[04:19:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088
+[04:19:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to younow2088]
+[04:19:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:19:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:19:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:19:12] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:53544] logged in with entity id 26336 at ([world]-1137.1218878576394, 116.0, -767.3642215454335)
+[04:19:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Mexicano69
+[04:19:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Mexicano69]
+[04:19:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:19:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:19:52] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <younow2088> aewaeasdwaw
+[04:19:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:19:57] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:47930] logged in with entity id 26961 at ([world]-1077.0875951887726, 112.0, 75.5)
+[04:20:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[04:20:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[04:21:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088 chander541
+[04:21:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported younow2088 to chander541]
+[04:22:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:22:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:23:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088 chander541
+[04:23:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported younow2088 to chander541]
+[04:23:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088 Mexicano69
+[04:23:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported younow2088 to Mexicano69]
+[04:23:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:23:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:23:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:23:20] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:53166] logged in with entity id 29276 at ([world]-1403.552033207127, 62.55000001192093, -462.73248929812576)
+[04:23:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:23:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:23:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:23:53] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:40038] logged in with entity id 29503 at ([world]-1384.7892356730677, 62.073264324689795, -447.78563546946623)
+[04:24:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:24:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:24:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:24:31] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:56988] logged in with entity id 30143 at ([world]-1384.7770981152705, 62.073264324666646, -448.3830595137385)
+[04:25:27] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> -671.823 / 96.000 / 176.097
+[04:25:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax has made the advancement [Tactical Fishing]
+[04:29:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Mexicano69
+[04:29:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Mexicano69]
+[04:31:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode creative
+[04:31:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Creative Mode]
+[04:31:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:31:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:31:27] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode survival
+[04:31:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Survival Mode]
+[04:33:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[04:33:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[04:35:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /op Mexicano69
+[04:35:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Made Mexicano69 a server operator]
+[04:35:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -639.5 94 158.5
+[04:35:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -639.500000, 94.000000, 158.500000]
+[04:35:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:35:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:35:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:35:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:35:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:35:41] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:60942] logged in with entity id 36857 at ([world]-639.7760306234941, 94.0, 160.2150676664293)
+[04:35:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp chander541 m
+[04:35:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp chander541 Mexicano69
+[04:35:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported chander541 to Mexicano69]
+[04:35:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Mexicano69
+[04:35:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Mexicano69]
+[04:36:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088
+[04:36:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to younow2088]
+[04:36:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088 Mexicano69
+[04:36:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported younow2088 to Mexicano69]
+[04:37:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: younow2088 fell from a high place
+[04:37:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Mexicano69
+[04:37:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Mexicano69]
+[04:37:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -1405.5 63 -474.5
+[04:37:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -1405.500000, 63.000000, -474.500000]
+[04:38:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp chander541 Mexicano69
+[04:38:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported chander541 to Mexicano69]
+[04:39:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mexicano69 has made the advancement [What a Deal!]
+[04:40:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -639.5 94 158.5
+[04:40:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -639.500000, 94.000000, 158.500000]
+[04:42:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp younow2088
+[04:42:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to younow2088]
+[04:42:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -1405.5 63 -474.5
+[04:42:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -1405.500000, 63.000000, -474.500000]
+[04:42:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -639.5 94 158.5
+[04:42:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -639.500000, 94.000000, 158.500000]
+[04:43:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax was slain by younow2088
+[04:43:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -1405.5 63 -474.5
+[04:43:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -1405.500000, 63.000000, -474.500000]
+[04:43:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:43:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:46:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -639.5 94 158.5
+[04:46:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -639.500000, 94.000000, 158.500000]
+[04:47:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -1405.5 63 -474.5
+[04:47:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -1405.500000, 63.000000, -474.500000]
+[04:47:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:47:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:51:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax was slain by Iron Golem
+[04:51:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode creative
+[04:51:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Creative Mode]
+[04:51:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Mexicano69
+[04:51:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Mexicano69]
+[04:51:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode spectator
+[04:51:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Spectator Mode]
+[04:51:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode spectator
+[04:51:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode survival
+[04:51:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Survival Mode]
+[04:52:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax has made the advancement [What a Deal!]
+[04:53:58] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> :blobcatninja:
+[04:54:32] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <neolly> :no_entry_sign:
+[04:54:39] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> te uniste tu?
+[04:54:40] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> :O
+[04:54:50] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <Mexicano69> :thonk:
+[04:56:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[04:56:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[04:56:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[04:56:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[04:56:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp chander541
+[04:56:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to chander541]
+[04:56:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[04:56:30] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:39004] logged in with entity id 48401 at ([world]-1357.1446522966367, 76.0, -230.24709961255937)
+[04:58:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: chander541 lost connection: Disconnected
+[04:58:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 left the game
+[05:00:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 joined the game
+[05:00:15] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: chander541[/127.0.0.1:55502] logged in with entity id 50477 at ([world]-1317.300000011921, -9.0, -359.69999998807907)
+[05:00:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Kenr15 joined the game
+[05:00:28] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Kenr15[/127.0.0.1:55590] logged in with entity id 50693 at ([world]-677.4272893715813, 77.0, 209.37728810069487)
+[05:01:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 Sengax
+[05:01:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to Sengax]
+[05:04:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: chander541 lost connection: Disconnected
+[05:04:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 left the game
+[05:06:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /difficulty hard
+[05:06:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: The difficulty has been set to Hard]
+[05:08:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 joined the game
+[05:08:09] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: chander541[/127.0.0.1:38466] logged in with entity id 55548 at ([world]-1234.3044455985641, -13.0, -435.3101085852684)
+[05:08:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 Sengax
+[05:08:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to Sengax]
+[05:09:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 was shot by Skeleton
+[05:09:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp chander541
+[05:09:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to chander541]
+[05:09:04] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <neolly> tienen cuero?
+[05:09:10] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <Sengax> ahorita no
+[05:09:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 Sengax
+[05:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to Sengax]
+[05:09:19] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <Kenr15> en mi casa tengo creo
+[05:09:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Kenr15
+[05:09:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Kenr15]
+[05:09:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Kenr15 was slain by chander541
+[05:09:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax was shot by Skeleton
+[05:09:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[05:09:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[05:09:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 chander541
+[05:09:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to chander541]
+[05:10:23] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Chicken['Chicken'/57668, l='ServerLevel[world]', x=-1088.51, y=110.00, z=-788.34]
+[05:10:24] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Chicken['Chicken'/57681, l='ServerLevel[world]', x=-1088.01, y=110.00, z=-788.60]
+[05:10:24] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer]: <neolly> puedes traerme? c:
+[05:10:25] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Chicken['Chicken'/57697, l='ServerLevel[world]', x=-1087.55, y=110.00, z=-787.72]
+[05:10:26] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Chicken['Chicken'/57708, l='ServerLevel[world]', x=-1088.28, y=110.00, z=-786.89]
+[05:10:32] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer]: <Kenr15> no estoy en la casa
+[05:10:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mexicano69 was shot by Skeleton
+[05:10:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mexicano69 issued server command: /tp Mexicano69 -1242.5 -22 -422.5
+[05:10:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mexicano69: Teleported Mexicano69 to -1242.500000, -22.000000, -422.500000]
+[05:10:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 has made the advancement [Sneak 100]
+[05:11:10] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 chander541
+[05:11:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to chander541]
+[05:11:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15
+[05:11:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Kenr15]
+[05:12:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mexicano69 was shot by Skeleton
+[05:12:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15
+[05:12:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Kenr15]
+[05:12:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541
+[05:12:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to chander541]
+[05:12:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax lost connection: Disconnected
+[05:12:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax left the game
+[05:12:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax joined the game
+[05:12:59] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Sengax[/127.0.0.1:48166] logged in with entity id 59896 at ([world]-1292.1471634642967, -38.0, -55.71310451253924)
+[05:13:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode creative
+[05:13:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Creative Mode]
+[05:14:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 chander541
+[05:14:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to chander541]
+[05:14:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode survival
+[05:14:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Survival Mode]
+[05:15:32] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Chicken['Chicken'/62113, l='ServerLevel[world]', x=-1088.61, y=110.00, z=-788.44]
+[05:15:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Kenr15
+[05:15:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Kenr15]
+[05:16:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Sengax was obliterated by a sonically-charged shriek
+[05:16:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15
+[05:16:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Sengax to Kenr15]
+[05:18:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: chander541 was obliterated by a sonically-charged shriek
+[05:18:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp chander541 Kenr15
+[05:18:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported chander541 to Kenr15]
+[05:19:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Kenr15 was slain by chander541
+[05:19:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /tp Kenr15 chander541
+[05:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Teleported Kenr15 to chander541]
+[05:19:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode creative
+[05:19:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Creative Mode]
+[05:20:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Sengax issued server command: /gamemode survival
+[05:20:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Sengax: Set own game mode to Survival Mode]

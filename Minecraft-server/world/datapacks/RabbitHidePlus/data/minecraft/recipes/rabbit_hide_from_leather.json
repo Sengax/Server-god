@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:rabbit_hide"
+  },
+  "show_notification": true
+}
